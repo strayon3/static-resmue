@@ -1,0 +1,64 @@
+@font-face{
+    font-family: Bonta;
+    src: url(./BebasNeue-Regular.ttf);
+}
+.page{
+    border: 2px solid black ;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 170px;
+    width: 55%;
+    
+    display: flexbox;
+    justify-content:  center;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-image: none;
+    background-color: white;
+}
+img{
+    position: absolute;
+    border: 1px solid black;
+    right: 405px;
+}
+.Header{
+    position: absolute;
+    right: 1350px;
+    top: 110px;
+    border: 5px transparent;
+    font-size: 20px;
+
+}
+h1{
+    position: absolute;
+    font-size: 60px;
+    right:1110px ;
+    font-family: Bonta;
+}
+.container{
+    border: 1px transparent;
+    align-items: center;
+    padding-top: 330px;
+    
+}
+.Content{
+    position: relative;
+    border: 1px transparent;
+    font-size: 20px;
+    
+}
+.Education{
+ border: 5px transparent;
+ font-size: 20px;
+}
+.skills{
+    font-size: 20px;
+}
+h2{
+    font-size: 35px;
+    font-family: Bonta;
+}
+body{
+    background-image: url(./86280.jpg);
+    background-repeat: no-repeat;
+}
